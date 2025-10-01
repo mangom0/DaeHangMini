@@ -5,3 +5,4 @@ C:\Users\Joo\Desktop\경일자료정리\C#파일\DaeHang\obj\Debug\DaeHang.cspro
 C:\Users\Joo\Desktop\경일자료정리\C#파일\DaeHang\obj\Debug\DaeHang.csproj.CoreCompileInputs.cache
 C:\Users\Joo\Desktop\경일자료정리\C#파일\DaeHang\obj\Debug\DaeHang.exe
 C:\Users\Joo\Desktop\경일자료정리\C#파일\DaeHang\obj\Debug\DaeHang.pdb
+C:\Users\Joo\Desktop\경일자료정리\C#파일\DaeHang\obj\Debug\DaeHang.exe.config

@@ -20,6 +20,9 @@ namespace DaeHang
         public Map Map { get; private set; }
         //날짜 관리
         public int Day { get; private set; } = 1;
+
+        public List<Port> Ports { get; } = new List<Port>();
+
         //맵 주입
         public void SetMap(Map m) { Map = m; }
         //시간 진행
@@ -36,8 +39,80 @@ namespace DaeHang
             w.SetMap(Map.FromString(rawMap));
             return w;
         }
+        // ● 타일들을 스캔해 Port 자동 등록(이름은 임시 Port1, Port2...)
+        public void AutoAssignPortsFromCities()
+        {
+            Ports.Clear();
+            int id = 1;
+            for (int y = 0; y < Map.Height; y++)
+            {
+                for (int x = 0; x < Map.Width; x++)
+                {
+                    if (Map.Tiles[y, x] == TileType.City)
+                    {
+                        Ports.Add(new Port(id, "Port" + id, new Point(x, y)));
+                        id++;
+                    }
+                }
+            }
+        }
+
+        // 좌표에 항구가 있으면 반환(없으면 null)
+        public Port FindPortAt(int x, int y)
+        {
+            for (int i = 0; i < Ports.Count; i++)
+            {
+                var p = Ports[i];
+                if (p.Position.X == x && p.Position.Y == y) return p;
+            }
+            return null;
+        }
+
+        // id로 항구 찾기(없으면 null)
+        public Port GetPortById(int id)
+        {
+            for (int i = 0; i < Ports.Count; i++)
+                if (Ports[i].Id == id) return Ports[i];
+            return null;
+        }
+        // 좌표(x,y)에 정확히 있는 항구의 이름을 바꿈
+        public bool TryRenamePortAt(int x, int y, string name)
+        {
+            var p = FindPortAt(x, y);
+            if (p == null) return false;
+            p.Rename(name);
+            return true;
+        }
+
+        // ID로 항구 이름을 바꿈
+        public bool TryRenamePortById(int id, string name)
+        {
+            var p = GetPortById(id);
+            if (p == null) return false;
+            p.Rename(name);
+            return true;
+        }
+
+    }
+    //항구
+    public class Port
+    {
+        public int Id { get; }
+        public string Name { get; private set; } 
+        public Point Position { get; } // 맵 좌표(도시 ● 칸)
+
+        public Port(int id, string name, Point position)
+        {
+            Id = id; Name = name; Position = position;
+        }
+
+        public void Rename(string name)            // ← 추가
+        {
+            if (!string.IsNullOrWhiteSpace(name)) Name = name.Trim();
+        }
     }
 
+    //지도 데이터화
     public class Map
     {
         //격자 크기

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Joo\\Desktop\\\uACBD\uC77C\uC790\uB8CC\uC815\uB9AC\\C#\uD30C\uC77C\\DaeHang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD37969A-B20F-4577-B190-F85FB6B5BF77}|DaeHang.csproj|c:\\users\\joo\\desktop\\\uACBD\uC77C\uC790\uB8CC\uC815\uB9AC\\c#\uD30C\uC77C\\daehang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD37969A-B20F-4577-B190-F85FB6B5BF77}|DaeHang.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD37969A-B20F-4577-B190-F85FB6B5BF77}|DaeHang.csproj|c:\\users\\joo\\desktop\\\uACBD\uC77C\uC790\uB8CC\uC815\uB9AC\\c#\uD30C\uC77C\\daehang\\mapdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD37969A-B20F-4577-B190-F85FB6B5BF77}|DaeHang.csproj|solutionrelative:mapdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD37969A-B20F-4577-B190-F85FB6B5BF77}|DaeHang.csproj|c:\\users\\joo\\desktop\\\uACBD\uC77C\uC790\uB8CC\uC815\uB9AC\\c#\uD30C\uC77C\\daehang\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD37969A-B20F-4577-B190-F85FB6B5BF77}|DaeHang.csproj|solutionrelative:world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MapData.cs",
+              "DocumentMoniker": "C:\\Users\\Joo\\Desktop\\\uACBD\uC77C\uC790\uB8CC\uC815\uB9AC\\C#\uD30C\uC77C\\DaeHang\\MapData.cs",
+              "RelativeDocumentMoniker": "MapData.cs",
+              "ToolTip": "C:\\Users\\Joo\\Desktop\\\uACBD\uC77C\uC790\uB8CC\uC815\uB9AC\\C#\uD30C\uC77C\\DaeHang\\MapData.cs",
+              "RelativeToolTip": "MapData.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T02:09:38.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "World.cs",
+              "DocumentMoniker": "C:\\Users\\Joo\\Desktop\\\uACBD\uC77C\uC790\uB8CC\uC815\uB9AC\\C#\uD30C\uC77C\\DaeHang\\World.cs",
+              "RelativeDocumentMoniker": "World.cs",
+              "ToolTip": "C:\\Users\\Joo\\Desktop\\\uACBD\uC77C\uC790\uB8CC\uC815\uB9AC\\C#\uD30C\uC77C\\DaeHang\\World.cs",
+              "RelativeToolTip": "World.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAA4wCAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T01:55:44.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Joo\\Desktop\\\uACBD\uC77C\uC790\uB8CC\uC815\uB9AC\\C#\uD30C\uC77C\\DaeHang\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Joo\\Desktop\\\uACBD\uC77C\uC790\uB8CC\uC815\uB9AC\\C#\uD30C\uC77C\\DaeHang\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T01:55:34.786Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

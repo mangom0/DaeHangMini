@@ -1,0 +1,7 @@
+C:\Users\Joo\Desktop\경일자료정리\C#파일\DaeHang\bin\Debug\DaeHang.exe.config
+C:\Users\Joo\Desktop\경일자료정리\C#파일\DaeHang\bin\Debug\DaeHang.exe
+C:\Users\Joo\Desktop\경일자료정리\C#파일\DaeHang\bin\Debug\DaeHang.pdb
+C:\Users\Joo\Desktop\경일자료정리\C#파일\DaeHang\obj\Debug\DaeHang.csproj.AssemblyReference.cache
+C:\Users\Joo\Desktop\경일자료정리\C#파일\DaeHang\obj\Debug\DaeHang.csproj.CoreCompileInputs.cache
+C:\Users\Joo\Desktop\경일자료정리\C#파일\DaeHang\obj\Debug\DaeHang.exe
+C:\Users\Joo\Desktop\경일자료정리\C#파일\DaeHang\obj\Debug\DaeHang.pdb
